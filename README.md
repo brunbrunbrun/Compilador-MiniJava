@@ -34,4 +34,4 @@
     `,`
 
 - Palavras reservadas:
-    `boolean, class, extends, public, static, void, main, String, return, int, if, else, while, length, true, false, this, new, null, System.out.println`
+    `boolean` `class` `extends` `public` `static` `void` `main` `String` `return` `int` `if` `else` `while` `length` `true` `false` `this` `new` `null` `System.out.println`
