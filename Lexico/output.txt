@@ -1,0 +1,81 @@
+Palavra Reservada	| class
+Identificador		| Factorial
+Pontuacao			| {
+Palavra Reservada	| public
+Palavra Reservada	| static
+Palavra Reservada	| void
+Palavra Reservada	| main
+Pontuacao			| (
+Palavra Reservada	| String
+Pontuacao			| [
+Pontuacao			| ]
+Identificador		| a
+Pontuacao			| )
+Pontuacao			| {
+Palavra Reservada	| System.out.println
+Pontuacao			| (
+Palavra Reservada	| new
+Identificador		| Fac
+Pontuacao			| (
+Pontuacao			| )
+Pontuacao			| .
+Identificador		| ComputeFac
+Pontuacao			| (
+Numerais			| 10
+Pontuacao			| )
+Pontuacao			| )
+Pontuacao			| ;
+Pontuacao			| }
+Pontuacao			| }
+Palavra Reservada	| class
+Identificador		| Fac
+Pontuacao			| {
+Palavra Reservada	| public
+Palavra Reservada	| int
+Identificador		| ComputeFac
+Pontuacao			| (
+Palavra Reservada	| int
+Identificador		| num
+Pontuacao			| )
+Pontuacao			| {
+Palavra Reservada	| int
+Identificador		| num_aux
+Pontuacao			| ;
+Palavra Reservada	| if
+Pontuacao			| (
+Identificador		| num
+Operadores			| <
+Numerais			| 1
+Pontuacao			| )
+Identificador		| num_aux
+Operadores			| =
+Numerais			| 1
+Pontuacao			| ;
+Palavra Reservada	| else
+Identificador		| num_aux
+Operadores			| =
+Identificador		| num
+Operadores			| *
+Pontuacao			| (
+Palavra Reservada	| this
+Pontuacao			| .
+Identificador		| ComputeFac
+Pontuacao			| (
+Identificador		| num
+Operadores			| -
+Numerais			| 1
+Pontuacao			| )
+Pontuacao			| )
+Pontuacao			| ;
+Palavra Reservada	| return
+Identificador		| num_aux
+Pontuacao			| ;
+Pontuacao			| }
+Pontuacao			| }
+ERRO LEXICO			| _yes
+ERRO LEXICO			| 34yes
+ERRO LEXICO			| 5WhaW
+Identificador		| wuh3_3j
+Numerais			| 45648795464987
+ERRO LEXICO			| 5646498794549e
+ERRO LEXICO			| .34
