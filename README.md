@@ -1,4 +1,4 @@
-# Compilador-MiniJava
+# Compilador-MiniJava 🤏☕
 
 ## Especificação Léxica
 
