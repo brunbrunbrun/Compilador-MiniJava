@@ -10,20 +10,24 @@ METODO  -> public TIPO id '(' [ PARAMS ]')' '{' { VAR } { CMD } return EXP ; '}'
 
 PARAMS  -> TIPO id { , TIPO id }
 
-TIPO    -> int '[' ']'
+TIPO    -> int INT1
         | boolean
-        | int
         | id
 
-        (*CMD Contem ambiguidade*)
-        (*Exemplo: if(exp) if(exp) cmd else cmd*)
+INT1    -> '[' ']'
+        | λ
+
 CMD     -> '{' { CMD }'}'
-        | if '(' EXP ')' CMD
-        | if '(' EXP ')' CMD else CMD
+        | if '(' EXP ')' CMD ELSE1
         | while '(' EXP ')' CMD
-        | System . out . println '(' EXP ')' ;
-        | id = EXP ;
-        | id '[' EXP ']' = EXP ;
+        | System.out.println '(' EXP ')' ;
+        | id ID1
+
+ELSE1   -> else CMD
+        | λ
+
+ID1     -> = EXP ;
+        | '[' EXP ']' = EXP ;
 
 EXP     -> EXP && REXP
         | REXP
