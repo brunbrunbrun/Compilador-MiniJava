@@ -1,59 +1,59 @@
-PROG -> isMainDeClasse { isClasse }
+PROG    -> MAIN { CLASSE }
 
-isMainDeClasse -> class id '{' public static void main ( String [ ] id )'{' CMD '}' '}'
+MAIN    -> class id '{' public static void main ( String [ ] id )'{' CMD '}' '}'
 
-isClasse -> class id [ extends id ]'{' { VAR } { isDeclaracaoMetodo }'}'
-VAR -> TIPO id ;
+CLASSE  -> class id [ extends id ]'{' { VAR } { METODO }'}'
 
-isDeclaracaoMetodo -> public TIPO id '(' [ isParametro ]')' '{' { VAR } { CMD } return EXP ; '}'
+VAR     -> TIPO id ;
 
-isParametro -> TIPO id { , TIPO id }
+METODO  -> public TIPO id '(' [ PARAMS ]')' '{' { VAR } { CMD } return EXP ; '}'
 
-TIPO -> int '[' ']'
-| boolean
-| int
-| id
+PARAMS  -> TIPO id { , TIPO id }
 
-CMD -> '{' { CMD }'}'
-| if '(' EXP ')' CMD
-| if '(' EXP ')' CMD else CMD
-| while '(' EXP ')' CMD
-| System . out . println '(' EXP ')' ;
-| id = EXP ;
-| id '[' EXP ']' = EXP ;
+TIPO    -> int '[' ']'
+        | boolean
+        | int
+        | id
 
-EXP -> EXP && isSubtracao
-| isSubtracao
+CMD     -> '{' { CMD }'}'
+        | if '(' EXP ')' CMD
+        | if '(' EXP ')' CMD else CMD
+        | while '(' EXP ')' CMD
+        | System . out . println '(' EXP ')' ;
+        | id = EXP ;
+        | id '[' EXP ']' = EXP ;
 
-isSubtracao -> isSubtracao < isAdicao
-| isSubtracao == isAdicao
-| isSubtracao != isAdicao
-| isAdicao
+EXP     -> EXP && REXP
+        | REXP
 
-isAdicao -> isAdicao + isMultiplicacao
-| isAdicao - isMultiplicacao
-| isMultiplicacao
+REXP    -> REXP < AEXP
+        | REXP == AEXP
+        | REXP != AEXP
+        | AEXP
 
-isMultiplicacao -> isMultiplicacao * isAtribuicao
-| isMultiplicacao / isAtribuicao
-| isAtribuicao
+AEXP    -> AEXP + MEXP
+        | AEXP - MEXP
+        | MEXP
 
-isAtribuicao -> ! isAtribuicao
-| - isAtribuicao
-| true
-| false
-| num
-| null
-| new int '[' EXP ']'
-| isInstanciaDeClasse . length
-| isInstanciaDeClasse '[' EXP ']'
-| isInstanciaDeClasse
+MEXP    -> MEXP * SEXP
+        | MEXP / SEXP
+        | SEXP
 
-isInstanciaDeClasse -> id
-| this
-| new id '(' ')'
-| '(' EXP ')'
-| isInstanciaDeClasse . id
-| isInstanciaDeClasse . id '(' [ EXPS ]')'
+SEXP    -> ! SEXP
+        | - SEXP
+        | true
+        | false
+        | num
+        | new int '[' EXP ']'
+        | PEXP . length
+        | PEXP '[' EXP ']'
+        | PEXP
 
-EXPS -> EXP { , EXP }
+PEXP    -> id
+        | this
+        | new id '(' ')'
+        | '(' EXP ')'
+        | PEXP . id
+        | PEXP . id '(' [ EXPS ]')'
+        
+EXPS    -> EXP { , EXP }
