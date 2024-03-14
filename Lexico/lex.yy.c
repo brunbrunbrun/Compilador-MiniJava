@@ -692,102 +692,102 @@ do_action:	/* This label is used only to access EOF actions. */
 case 1:
 YY_RULE_SETUP
 #line 9 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
 #line 10 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
 #line 11 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
 #line 12 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
 #line 13 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
 #line 14 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
 #line 15 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
 #line 16 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
 #line 17 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
 #line 18 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
 #line 19 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
 #line 20 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
 #line 21 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
 #line 22 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
 #line 23 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
 #line 24 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
 #line 25 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
 #line 26 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
 #line 27 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
 #line 28 "lexico.l"
-fprintf(file, "Palavra Reservada\t| %s\n", yytext);
+fprintf(file, "Palavra_Reservada\t| %s\n", yytext);
 	YY_BREAK
 case 21:
 YY_RULE_SETUP

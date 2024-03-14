@@ -1,20 +1,20 @@
-Palavra Reservada	| class
+Palavra_Reservada	| class
 Identificador		| Factorial
 Pontuacao			| {
-Palavra Reservada	| public
-Palavra Reservada	| static
-Palavra Reservada	| void
-Palavra Reservada	| main
+Palavra_Reservada	| public
+Palavra_Reservada	| static
+Palavra_Reservada	| void
+Palavra_Reservada	| main
 Pontuacao			| (
-Palavra Reservada	| String
+Palavra_Reservada	| String
 Pontuacao			| [
 Pontuacao			| ]
 Identificador		| a
 Pontuacao			| )
 Pontuacao			| {
-Palavra Reservada	| System.out.println
+Palavra_Reservada	| System.out.println
 Pontuacao			| (
-Palavra Reservada	| new
+Palavra_Reservada	| new
 Identificador		| Fac
 Pontuacao			| (
 Pontuacao			| )
@@ -27,21 +27,21 @@ Pontuacao			| )
 Pontuacao			| ;
 Pontuacao			| }
 Pontuacao			| }
-Palavra Reservada	| class
+Palavra_Reservada	| class
 Identificador		| Fac
 Pontuacao			| {
-Palavra Reservada	| public
-Palavra Reservada	| int
+Palavra_Reservada	| public
+Palavra_Reservada	| int
 Identificador		| ComputeFac
 Pontuacao			| (
-Palavra Reservada	| int
+Palavra_Reservada	| int
 Identificador		| num
 Pontuacao			| )
 Pontuacao			| {
-Palavra Reservada	| int
+Palavra_Reservada	| int
 Identificador		| num_aux
 Pontuacao			| ;
-Palavra Reservada	| if
+Palavra_Reservada	| if
 Pontuacao			| (
 Identificador		| num
 Operadores			| <
@@ -51,13 +51,13 @@ Identificador		| num_aux
 Operadores			| =
 Numerais			| 1
 Pontuacao			| ;
-Palavra Reservada	| else
+Palavra_Reservada	| else
 Identificador		| num_aux
 Operadores			| =
 Identificador		| num
 Operadores			| *
 Pontuacao			| (
-Palavra Reservada	| this
+Palavra_Reservada	| this
 Pontuacao			| .
 Identificador		| ComputeFac
 Pontuacao			| (
@@ -67,7 +67,7 @@ Numerais			| 1
 Pontuacao			| )
 Pontuacao			| )
 Pontuacao			| ;
-Palavra Reservada	| return
+Palavra_Reservada	| return
 Identificador		| num_aux
 Pontuacao			| ;
 Pontuacao			| }
