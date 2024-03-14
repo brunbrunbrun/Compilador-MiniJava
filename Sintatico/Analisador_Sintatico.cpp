@@ -59,7 +59,7 @@ bool match(const string& expected){
         TokenIndex++;
         return true;
     }
-    reportErro("Esperava um: " + expected);
+    reportErro("Esperava \'" + expected +"\' mas encontrou \'" + Tokens[TokenIndex].second + "\'");
     return false;
 }
 
@@ -209,6 +209,7 @@ int main(){
         cout << "Tipo: " << t.first << ", Lexema: "<< t.second << endl;
     }
     */
+   
     if(PROG() && TokenIndex == Tokens.size()){
         cout << "Codigo Sintaticamente correto!" << endl;
     }
