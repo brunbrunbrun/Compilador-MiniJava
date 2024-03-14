@@ -36,7 +36,7 @@
 - Palavras reservadas:
     `boolean` `class` `extends` `public` `static` `void` `main` `String` `return` `int` `if` `else` `while` `length` `true` `false` `this` `new` `null` `System.out.println`
 
-  ## Gramatica
+## Gramatica
     ```EBNF
     PROG 	= MAIN CLASSE
     MAIN 	= 'class' 'id' '{' 'public' 'static' 'void' 'main' '(' 'String' '[' ']' 'id' ')' '{' CMD '}' '}'
@@ -52,3 +52,11 @@
 		| 'id' '=' REXP ';'
     REXP 	= 'num' '<' 'num'
     ```
+## Analise Sintatica
+Foi implementado um analisador sintático descendente recursivo.
+
+# Como usar
+- Colocar o codigo dentro do arquivo **input.txt** na raiz do diretorio.
+-  rodar o script: 
+`$ ./run_Compilador.sh`
+
