@@ -4,6 +4,7 @@
 #include <utility>
 #include <fstream>
 
+
 using namespace std;
 
 //Percorre o arquivo .txt gerado pelo Lexer, e transforma
@@ -201,7 +202,7 @@ bool REXP(){
 
 
 int main(){
-    Tokens = getTokens("output.txt");
+    Tokens = getTokens("../Lexico/output.txt");
 
     /*
     //teste
@@ -209,7 +210,7 @@ int main(){
         cout << "Tipo: " << t.first << ", Lexema: "<< t.second << endl;
     }
     */
-   
+
     if(PROG() && TokenIndex == Tokens.size()){
         cout << "Codigo Sintaticamente correto!" << endl;
     }
