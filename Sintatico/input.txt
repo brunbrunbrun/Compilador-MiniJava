@@ -1,0 +1,13 @@
+class Factorial{
+    public static void main(String[] a){
+        System.out.println(13 < 5);
+    }
+}
+class Fac [extends Ans]{
+    boolean Answer;
+    public boolean Answer (int numero) {
+        boolean Aux;
+        while (2 < 59) Aux = 9 < 8;
+        return 13 < 8;
+    }
+}
