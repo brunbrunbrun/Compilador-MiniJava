@@ -1,4 +1,9 @@
 # Compilador-MiniJava 🤏☕
+<p align="center">
+  <img src="https://github.com/brunbrunbrun/Compilador-MiniJava/assets/92926937/74f5b2d6-0a42-4a3e-8825-394bc3cf3fc6" width="200" alt="Descrição da imagem">
+</p>
+
+
 
 ## Especificação Léxica
 
