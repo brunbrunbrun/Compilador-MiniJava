@@ -1,0 +1,7 @@
+Tipo de Token,Expressão Regular
+Espaços em branco,[\n \t \r \f]
+Identificadores,[a-zA-Z]+[0-9a-zA-Z_]*
+Numerais,[0-9]+
+Operadores,= < == != + - * && !
+Pontuação,\( \) \[ \] { } ; . ,
+Palavras reservadas,boolean|class|extends|public|static|void|main|String|return|int|if|else|while|length|true|false|this|new|null|System\.out\.println
