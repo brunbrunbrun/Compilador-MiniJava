@@ -9,8 +9,8 @@ using namespace std;
 
 //Percorre o arquivo .txt gerado pelo Lexer, e transforma
 //cada linha em um pair <tipo,lexema>
-vector<pair<string, string>> getTokens(const string& filename){
-    vector<pair<string, string>> Tokens;
+vector<pair<string, string> > getTokens(const string& filename){
+    vector<pair<string, string> > Tokens;
     string line;
     ifstream file(filename);
 
@@ -37,7 +37,7 @@ vector<pair<string, string>> getTokens(const string& filename){
     return Tokens;
 }
 
-vector<pair<string, string>> Tokens;
+vector<pair<string, string> > Tokens;
 size_t TokenIndex = 0;
 
 //Prototipos de funções
