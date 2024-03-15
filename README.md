@@ -64,5 +64,7 @@ Foi implementado um analisador sintático descendente recursivo.
 # Como usar
 - Colocar o codigo dentro do arquivo **input.txt** na raiz do diretorio.
 -  rodar o script: 
-`$ ./run_Compilador.sh`
+`./run_Compilador.sh` para Windows.
+- rodar o script:
+`./run_Compilador_unix.sh` para UNIX.
 
